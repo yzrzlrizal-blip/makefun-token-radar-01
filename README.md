@@ -1,6 +1,21 @@
-# Token Radar — make.fun bounty `token-radar-01`
+# makefun-token-radar-01
 
-Build the best token launch radar. Entry by Udin (@leeminho).
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/yzrzlrizal-blip/makefun-token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/yzrzlrizal-blip/makefun-token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
+Token launch radar: ranks pre-token DeFi protocols by implied launch value from a sealed DefiLlama snapshot, with a sortable dashboard, 7-step farm plans and a dossier. It does not predict whether or when a token launches.
+
+## Run it
+
+```sh
+mkdir -p out
+MAKEFUN_OUTPUT_DIR=out node main.ts --input <path-to>/snapshot.json
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=wdbz3sg5&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
 
 **What it does:** reads the sealed DefiLlama snapshot (`input/snapshot.json`,
 758 protocols as of 2026-11-14, watchlist floor $50,000,000), finds every
